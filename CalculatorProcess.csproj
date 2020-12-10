@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Class_Lib_Calculator\**" />
+    <Compile Remove="ConsoleSampleCalc\**" />
+    <EmbeddedResource Remove="Class_Lib_Calculator\**" />
+    <EmbeddedResource Remove="ConsoleSampleCalc\**" />
+    <None Remove="Class_Lib_Calculator\**" />
+    <None Remove="ConsoleSampleCalc\**" />
+  </ItemGroup>
+
+</Project>
